@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name BPSCurrent-rescue)(type Legacy)(uri ${KIPRJMOD}/BPSCurrent-rescue.lib)(options "")(descr ""))
+  (lib (name utsvt-bps)(type Legacy)(uri /home/chase/Documents/SVT/Electronics/BPS/Library/utsvt-bps.lib)(options "")(descr ""))
 )
