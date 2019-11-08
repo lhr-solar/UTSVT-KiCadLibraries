@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BPS-Nucleo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -69,7 +69,7 @@ $EndComp
 Text Notes 4050 2150 0    100  ~ 20
 Error Light
 $Comp
-L utsvt-bps:SI8261ABC-IS U7
+L BPS-Nucleo-rescue:SI8261ABC-IS-utsvt-bps U7
 U 1 1 5C35EBB6
 P 3350 3150
 F 0 "U7" H 3350 2500 50  0000 C CNN

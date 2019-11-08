@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BPS-Nucleo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L utsvt-connectors:CANConnector J11
+L BPS-Nucleo-rescue:CANConnector-utsvt-connectors J11
 U 1 1 5C2B42F3
 P 9250 3800
 F 0 "J11" H 9250 3550 60  0000 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 6850 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L utsvt-chips:ADM3055E U14
+L BPS-Nucleo-rescue:ADM3055E-utsvt-chips U14
 U 1 1 5C2B4359
 P 4350 3600
 F 0 "U14" H 4100 4250 60  0000 C CNN
@@ -254,7 +254,7 @@ F 3 "" H 7300 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L utsvt-chips:CDSOT23-T24CAN U5
+L BPS-Nucleo-rescue:CDSOT23-T24CAN-utsvt-chips U5
 U 1 1 5C2B43A0
 P 8100 2850
 F 0 "U5" H 8100 2700 60  0000 C CNN

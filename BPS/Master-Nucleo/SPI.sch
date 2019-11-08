@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BPS-Nucleo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L utsvt-bps:LTC6820 U8
+L BPS-Nucleo-rescue:LTC6820-utsvt-bps U8
 U 1 1 5C4C8CC8
 P 3650 1700
 F 0 "U8" H 3650 1865 50  0000 C CNN
@@ -221,7 +221,7 @@ Wire Wire Line
 Text Notes 2300 1400 0    50   ~ 0
 If the wires lengths are short and you want to save more power, change IBIAS\nresistor to be 2.8k. Look in LTC6820 datasheet for more information on\ncalculating these BIAS resistors.
 $Comp
-L utsvt-bps:HX1188FNL U9
+L BPS-Nucleo-rescue:HX1188FNL-utsvt-bps U9
 U 1 1 5C4CE5A3
 P 8800 1700
 F 0 "U9" H 8800 1865 50  0000 C CNN
@@ -333,7 +333,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3650 7600 3650
 $Comp
-L utsvt-bps:GND_A #PWR0160
+L BPS-Nucleo-rescue:GND_A-utsvt-bps #PWR0160
 U 1 1 5C3FE3B1
 P 8500 4550
 F 0 "#PWR0160" H 8500 4600 50  0001 C CNN
@@ -348,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4450 8500 4550
 $Comp
-L utsvt-bps:GND_A #PWR0161
+L BPS-Nucleo-rescue:GND_A-utsvt-bps #PWR0161
 U 1 1 5C407FF9
 P 9500 4450
 F 0 "#PWR0161" H 9500 4500 50  0001 C CNN
@@ -444,7 +444,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3750 7500 3650
 $Comp
-L utsvt-bps:SI8660EC-B-IS1 U12
+L BPS-Nucleo-rescue:SI8660EC-B-IS1-utsvt-bps U12
 U 1 1 5C43A414
 P 8000 5200
 F 0 "U12" H 8000 5389 60  0000 C CNN
@@ -508,7 +508,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 6000 7500 6000
 $Comp
-L utsvt-bps:GND_A #PWR0167
+L BPS-Nucleo-rescue:GND_A-utsvt-bps #PWR0167
 U 1 1 5C528C84
 P 8600 6100
 F 0 "#PWR0167" H 8600 6150 50  0001 C CNN
@@ -595,7 +595,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 5900 9100 5900
 $Comp
-L utsvt-bps:GND_A #PWR0170
+L BPS-Nucleo-rescue:GND_A-utsvt-bps #PWR0170
 U 1 1 5C5CEB11
 P 9000 3650
 F 0 "#PWR0170" H 9000 3700 50  0001 C CNN
@@ -878,7 +878,7 @@ NoConn ~ 9400 2300
 NoConn ~ 8400 4150
 NoConn ~ 7600 4150
 $Comp
-L utsvt-bps:GND_A #PWR0171
+L BPS-Nucleo-rescue:GND_A-utsvt-bps #PWR0171
 U 1 1 5CCE442E
 P 9200 5150
 F 0 "#PWR0171" H 9200 5200 50  0001 C CNN
@@ -921,7 +921,7 @@ $EndComp
 Wire Wire Line
 	1900 7450 2150 7450
 $Comp
-L utsvt-bps:SRF0905-100Y L?
+L BPS-Nucleo-rescue:SRF0905-100Y-utsvt-bps L?
 U 1 1 5C3DD0F6
 P 2400 7000
 AR Path="/5C29E573/5C3DD0F6" Ref="L?"  Part="1" 
@@ -994,7 +994,7 @@ $EndComp
 Wire Wire Line
 	3450 6600 3450 6700
 $Comp
-L utsvt-power-regulators:RI3-1205S U?
+L BPS-Nucleo-rescue:RI3-1205S-utsvt-power-regulators U?
 U 1 1 5C3DD149
 P 4000 7050
 AR Path="/5C29E573/5C3DD149" Ref="U?"  Part="1" 
@@ -1033,7 +1033,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 7350 4650 7350
 $Comp
-L utsvt-bps:GND_A #PWR0174
+L BPS-Nucleo-rescue:GND_A-utsvt-bps #PWR0174
 U 1 1 5C478A3F
 P 4650 7450
 F 0 "#PWR0174" H 4650 7500 50  0001 C CNN
@@ -1168,17 +1168,17 @@ Wire Wire Line
 	7750 1400 7750 1550
 Wire Wire Line
 	7750 1400 8100 1400
-Wire Bus Line
-	6350 5400 6350 6000
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0139
 U 1 1 5D8A9470
 P 2150 2250
-F 0 "#PWR?" H 2150 2100 50  0001 C CNN
+F 0 "#PWR0139" H 2150 2100 50  0001 C CNN
 F 1 "+5V" H 2165 2423 50  0000 C CNN
 F 2 "" H 2150 2250 50  0001 C CNN
 F 3 "" H 2150 2250 50  0001 C CNN
 	1    2150 2250
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6350 5400 6350 6000
 $EndSCHEMATC

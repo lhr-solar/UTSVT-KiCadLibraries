@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:BPS-Nucleo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ SCL
 Text HLabel 4950 3200 2    50   Input ~ 0
 GND
 $Comp
-L utsvt-bps:M24128 U6
+L BPS-Nucleo-rescue:M24128-utsvt-bps U6
 U 1 1 5C3511BE
 P 4250 2800
 F 0 "U6" H 4250 2965 50  0000 C CNN

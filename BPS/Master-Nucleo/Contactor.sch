@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BPS-Nucleo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -69,9 +69,11 @@ Wire Wire Line
 Wire Wire Line
 	8700 4200 8700 4100
 $Comp
-L utsvt-bps:BAS70-04 U2
+L BPS-Nucleo-rescue:BAS70-04-utsvt-bps U2
 U 1 1 5C304528
 P 8200 3500
+AR Path="/5C304528" Ref="U2"  Part="1" 
+AR Path="/5D3DB608/5C304528" Ref="U2"  Part="1" 
 F 0 "U2" H 8072 3346 50  0000 R CNN
 F 1 "BAS70-04" H 8072 3255 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8650 3500 50  0001 C CNN
@@ -205,7 +207,7 @@ Wire Wire Line
 	5100 3850 5200 3850
 Connection ~ 5200 3850
 $Comp
-L utsvt-bps:SI8261ABC-IS U3
+L BPS-Nucleo-rescue:SI8261ABC-IS-utsvt-bps U3
 U 1 1 5C30F57F
 P 3750 3550
 F 0 "U3" H 3750 2900 50  0000 C CNN

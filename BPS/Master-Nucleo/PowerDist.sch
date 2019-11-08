@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BPS-Nucleo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L utsvt-connectors:CarPowerConnector J2
+L BPS-Nucleo-rescue:CarPowerConnector-utsvt-connectors J2
 U 1 1 5C35F236
 P 2100 3400
 F 0 "J2" H 2150 3750 60  0000 C CNN
@@ -237,7 +237,7 @@ $EndComp
 Wire Wire Line
 	4000 2750 4000 2850
 $Comp
-L utsvt-power-regulators:RI3-1205S U4
+L BPS-Nucleo-rescue:RI3-1205S-utsvt-power-regulators U4
 U 1 1 5C38C4FE
 P 4550 3200
 F 0 "U4" H 4550 3365 50  0000 C CNN
@@ -302,7 +302,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3600 4000 3600
 $Comp
-L utsvt-bps:SRF0905-100Y L1
+L BPS-Nucleo-rescue:SRF0905-100Y-utsvt-bps L1
 U 1 1 5C35FFD4
 P 2950 3150
 F 0 "L1" H 3200 3450 50  0000 C CNN

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BPS-Nucleo-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L utsvt-bps:NUCLEO144-F412ZG U1
+L BPS-Nucleo-rescue:NUCLEO144-F412ZG-utsvt-bps U1
 U 1 1 5D3D798F
 P 8200 5650
 F 0 "U1" H 8200 8750 50  0000 C CNN
