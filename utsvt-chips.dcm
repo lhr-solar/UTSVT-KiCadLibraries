@@ -4,6 +4,12 @@ $CMP ADM3055E
 D Isolating CAN Transceiver with Integrated Power Regulator
 $ENDCMP
 #
+$CMP BAS70-04
+D Dual diode, small symbol, clipping diodes
+K diode
+F ~
+$ENDCMP
+#
 $CMP CDSOT23-T24CAN
 D CAN Bus Protector
 $ENDCMP
