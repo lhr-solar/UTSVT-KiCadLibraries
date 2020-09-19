@@ -29,6 +29,11 @@ D Ethernet Transceiver RMII
 K Ethernet, Transceiver, RMII
 $ENDCMP
 #
+$CMP MTK3339
+D GPS MTK3339 Chipset
+K GPS, MTK3339, PA6H
+$ENDCMP
+#
 $CMP UCC37321
 D FET Driver
 $ENDCMP
