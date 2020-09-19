@@ -14,6 +14,12 @@ $CMP CDSOT23-T24CAN
 D CAN Bus Protector
 $ENDCMP
 #
+$CMP HX1188FNL
+D Dual Transformer with CMC
+K transformer, CMC
+F https://www.mouser.com/datasheet/2/336/HX1188NL-515471.pdf
+$ENDCMP
+#
 $CMP INA21x
 D 50V/V Current-Sense Amplifier
 $ENDCMP
