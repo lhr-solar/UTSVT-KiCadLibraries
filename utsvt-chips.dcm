@@ -18,6 +18,11 @@ $CMP INA21x
 D 50V/V Current-Sense Amplifier
 $ENDCMP
 #
+$CMP LAN8742A-CZ-TR
+D Ethernet Transceiver RMII
+K Ethernet, Transceiver, RMII
+$ENDCMP
+#
 $CMP UCC37321
 D FET Driver
 $ENDCMP
