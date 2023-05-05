@@ -105,7 +105,7 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [ ] The dimensions of the board and the mounting holes are nice values in metric i.e. no long decimals.
 - [ ] The physical outline of the board is on the edge cut layer.
 - [ ] Edge cuts are straight and parallel with opposite edge of the board.
-- [ ] Mounting holes are aligned.
+- [ ] Mounting holes are aligned and support M3 screws. All mounting holes should have distances between them shown in comments layer.
 - [ ] Corners are curved and contoured to mounting holes.
 
 **Please *read* every word on *every* bullet point before checking off the corresponding box.**
