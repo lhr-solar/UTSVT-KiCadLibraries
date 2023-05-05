@@ -17,14 +17,14 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 
 ## Schematic Level Requirements 
 - [ ] Is proper noise resistance given to all peripheral devices (bypass caps and coils/ferrites)?  
-- [ ] Is proper ESD protection given to all MCU input pins (zener diodes)?  
+- [ ] Is proper ESD protection given to all MCU input pins (zener diodes)? You could also write the input pin rating for the MCU on the schematic.  
 - [ ] Is proper power protection given to peripheral devices (zener diodes)?  
 - [ ] Are peripheral units used properly (reading datasheet)?  
 - [ ] Are testing points added at useful places?  
 - [ ] Is there proper short to GND protection at MCU outputs (inline resistors)?  
-- [ ] Do ADC inputs have caps?  
+- [ ] Do ADC inputs have caps (appropriately sized to prevent RC delay)?  
 - [ ] Are ADC inputs biased so there is room above expected value to determine if value is being overflowed?  
-- [ ] Are LED's located at useful places (comm, power, debugging, extra GPIO)?  
+- [ ] Are LEDs located at useful places (comm, power, debugging, extra GPIO)? They should be placed in locations   
 - [ ] Are parts chosen easy to collect?  
 - [ ] Are parts chosen easy to solder?  
 - [ ] Is there reverse polarity protection on inputs?  
@@ -74,8 +74,8 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [ ] Are critical paths of switching converters as small as possible?  
 
 ### Copper Layer 
-- [ ] The trace widths and trace clearances are greater than JLCPCB's minimum requirements. 
-    - [ ] Are signal traces 6mils unless provided with reasoning?   
+- [ ] The trace widths and trace clearances are greater than JLCPCB's minimum requirements (https://jlcpcb.com/capabilities/Capabilities). 
+    - [ ] Are signal traces are .15mm unless provided with reasoning?   
         - NOTE: One net can have multiple trace widths  
 - [ ] The trace lengths are as short as possible. 
     - Can there be a more optimal route if you go to another layer? 
@@ -84,7 +84,7 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 - [ ] *No sharp corners. No trace angles equal to or less than 90 degrees. 
     - Orthogonal traces should have vias if necessary. 
 - [ ] Are edges of board surrounded by clean ground on both layers with stitching vias?  
-- [ ] Traces are in parallel with each other when possible. 
+- [ ] Traces are in parallel with each other when possible (exceptions can be made to prevent signal coupling). 
     - E.g. traces connected between an IC and MCU can be placed in parallel with each other. 
 - [ ] There are no random trace appendages. 
 - [ ] Vias placed in copper pads are fully encompassed in the copper pads. 
@@ -94,7 +94,7 @@ There are exceptions with all guidelines. As long as your decisions are justifie
 *Not really a problem for modern manufacturing techniques but good practice and important for high speed signal integrity.
 
 ### Silkscreen Layer
-- [ ] Visible text sizes are greater than JLCPCB's minimum requirements.
+- [ ] Visible text sizes are greater than .8mm(L), .8mm(H), .15mm(W).
 - [ ] All visible text is on the silkscreen layer.
 - [ ] All reference labels of each component are not overlapping a copper pad or another component.
 - [ ] All connector pins are labeled with a meaningful and helpful name.
