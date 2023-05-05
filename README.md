@@ -46,6 +46,22 @@ to review your design again. YOU MUST BE PROACTIVE IN YOUR WORK!
 10. There will be changes made to this submodule if everything was done correctly. Now you must commit your changes to a new branch and open a Pull Request.
 11. After the Pull Request is merged, update the submodule in your PCB repository through `git submodule update`.
 
+# Standard Constraints for Laying out Board
+When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. When creating the layout of your board, select
+`File` -> `Board Setup` -> `Constraints` and set them to the following values:
+* Minimum Clearance: .127mm
+* Minimum Track Width: .127mm
+* Minimum Connection Width: 0mm
+* Minimum Annular Width: .13mm
+* Minimum Via Diameter: .25mm
+* Copper to Hole Clearance: .254mm
+* Copper to Edge Clearance: .1mm
+* Minimum Through Hole: .2mm
+* Hole to Hole Clearance: .5mm
+* Minimum Item Clearance: .15mm
+* Minimum Text Height: .8mm
+* Minimum Text Thickness: .15mm
+
 # Working on a Board
 * The first page of the KiCAD schematic should have a version control description of the board that is being worked on. It should list the changes between each version of the board.
 * When working on a board, the branch name should be the version of the board.
