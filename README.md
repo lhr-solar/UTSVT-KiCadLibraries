@@ -7,7 +7,7 @@ In order to use the files in this repository, you must:
 1. Add this repository as a submodule to the PCB repository. It will then show up as a folder within the PCB repository.
 2. Create the PCB KiCAD Project and open it in KiCAD.
 3. Click on `Preferences` -> `Manage Symbol Libraries` -> `Project Specific Libraries` and add the `.lib` files (within the submodule directory) to the path.
-
+    
     **NOTE**: Ensure all `.lib` files are named `utsvt-name`
 
 # Board Repositories
@@ -15,6 +15,7 @@ In order to use the files in this repository, you must:
 * All board repositories should be named Team-BoardName (ex. BPS-LeaderPCB) - all board names should end in PCB
 * All board repositories should have zip file of gerbers for the board
 * All board repositories should contain pdf with images of board schematic and board layout (with dimensions)
+* All board repositories should have `BoardName-backups/*` directory in their `.gitignore` file to ignore all backups generated.
 * All board repositories should have README that contains the following information
     * Boards Purpose
     * Mouser link BOM for Board
@@ -27,6 +28,9 @@ the checklist is completed will a reviewer review your board.
 
     **NOTE**: After making changes to your board, it is essential that you re-request a review from the reviewers. Otherwise they will not know when
 to review your design again. YOU MUST BE PROACTIVE IN YOUR WORK!
+
+When first creating your board repository, and every time the Pull Request Template is updated, you must run the following command
+`cp common/PULL_REQUEST_TEMPLATE.md .` to copy the Pull Request Template into the board repository.
 
 # Adding Components to library
 1. Add component information to Standardized Mouser Components Excel Sheet (this is so other designs can take this component into consideration if the use is applicable).
