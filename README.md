@@ -20,6 +20,7 @@ In order to use the files in this repository, you must:
     * Boards Purpose
     * Mouser link BOM for Board
     * List of components that take up vertical/horizontal volume outside of regular board dimensions (for mechanical purposes)
+    * List of LED's on board and what information they provide
 
 # Pull Request Template
 The file PULL_REQUEST_TEMPLATE.md should be copied into the main board repository directory. This file creates a checklist of 
@@ -67,6 +68,7 @@ When manufacturing a PCB, there are constraints that are given to us by the manu
 * Minimum Text Thickness: .15mm
 
 # Working on a Board
-* The first page of the KiCAD schematic should have a version control description of the board that is being worked on. It should list the changes between each version of the board.
+* The first page of the KiCAD schematic should have a version control description of the board that is being worked on. It should list the changes between each version of the board and changes that should be made in future versions of the board.
 * When working on a board, the branch name should be the version of the board.
 * Versions are updated every time the layout of the board is changed after a fabrication.
+* Everyone working on boards should download the Interactive HTML BOM plugin for KiCAD. After laying out the board, an interactive BOM should be generated so soldering the board is easily managed.
