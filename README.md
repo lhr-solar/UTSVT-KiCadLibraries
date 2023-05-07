@@ -7,7 +7,7 @@ In order to use the files in this repository, you must:
 1. Add this repository as a submodule to the PCB repository. It will then show up as a folder within the PCB repository.
 2. Create the PCB KiCAD Project and open it in KiCAD.
 3. Click on `Preferences` -> `Manage Symbol Libraries` -> `Project Specific Libraries` and add the `.lib` files (within the submodule directory) to the path.
-
+    
     **NOTE**: Ensure all `.lib` files are named `utsvt-name`
 
 # Board Repositories
@@ -15,10 +15,12 @@ In order to use the files in this repository, you must:
 * All board repositories should be named Team-BoardName (ex. BPS-LeaderPCB) - all board names should end in PCB
 * All board repositories should have zip file of gerbers for the board
 * All board repositories should contain pdf with images of board schematic and board layout (with dimensions)
+* All board repositories should have `BoardName-backups/*` directory in their `.gitignore` file to ignore all backups generated.
 * All board repositories should have README that contains the following information
     * Boards Purpose
     * Mouser link BOM for Board
     * List of components that take up vertical/horizontal volume outside of regular board dimensions (for mechanical purposes)
+    * List of LED's on board and what information they provide
 
 # Pull Request Template
 The file PULL_REQUEST_TEMPLATE.md should be copied into the main board repository directory. This file creates a checklist of 
@@ -27,6 +29,9 @@ the checklist is completed will a reviewer review your board.
 
     **NOTE**: After making changes to your board, it is essential that you re-request a review from the reviewers. Otherwise they will not know when
 to review your design again. YOU MUST BE PROACTIVE IN YOUR WORK!
+
+When first creating your board repository, and every time the Pull Request Template is updated, you must run the following command
+`cp common/PULL_REQUEST_TEMPLATE.md .` to copy the Pull Request Template into the board repository.
 
 # Adding Components to library
 1. Add component information to Standardized Mouser Components Excel Sheet (this is so other designs can take this component into consideration if the use is applicable).
@@ -63,6 +68,7 @@ When manufacturing a PCB, there are constraints that are given to us by the manu
 * Minimum Text Thickness: .15mm
 
 # Working on a Board
-* The first page of the KiCAD schematic should have a version control description of the board that is being worked on. It should list the changes between each version of the board.
+* The first page of the KiCAD schematic should have a version control description of the board that is being worked on. It should list the changes between each version of the board and changes that should be made in future versions of the board.
 * When working on a board, the branch name should be the version of the board.
 * Versions are updated every time the layout of the board is changed after a fabrication.
+* Everyone working on boards should download the Interactive HTML BOM plugin for KiCAD. After laying out the board, an interactive BOM should be generated so soldering the board is easily managed.
