@@ -44,4 +44,9 @@
   (pad "18" smd rect (at 8 -3.75) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c808fc5c-5ae3-48b9-8d71-234972b55d2a))
   (pad "19" smd rect (at 8 -5.25) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 89ff2730-9335-419c-94f3-2c404944918e))
   (pad "20" smd rect (at 8 -6.75) (size 2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d76ca204-b526-4dbc-8888-f39f96552e23))
+  (model "${KIPRJMOD}/common/utsvt3d/misc.3dshapes/PA6H Assembly.STEP"
+    (offset (xyz 11 -2.5 -30.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
