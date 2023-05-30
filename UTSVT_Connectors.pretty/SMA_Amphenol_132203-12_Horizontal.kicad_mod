@@ -2,8 +2,6 @@
   (layer "F.Cu")
   (descr "https://www.amphenolrf.com/media/downloads/1769/132203-12.pdf")
   (tags "SMA THT Female Jack Horizontal")
-  (property "Sheetfile" "GPS.kicad_sch")
-  (property "Sheetname" "GPS")
   (property "ki_description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)")
   (property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA")
   (attr through_hole)

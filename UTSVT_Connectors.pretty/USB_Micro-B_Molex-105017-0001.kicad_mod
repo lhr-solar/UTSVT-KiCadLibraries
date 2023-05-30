@@ -3,8 +3,6 @@
   (descr "http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf")
   (tags "Micro-USB SMD Typ-B")
   (property "P/N" "105017-1001")
-  (property "Sheetfile" "USB.kicad_sch")
-  (property "Sheetname" "USB")
   (property "ki_description" "USB Micro Type B connector")
   (property "ki_keywords" "connector USB micro")
   (attr smd)

@@ -2,8 +2,6 @@
   (layer "F.Cu")
   (descr "SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package")
   (tags "SMD SMT crystal")
-  (property "Sheetfile" "Telemetry-Primary.kicad_sch")
-  (property "Sheetname" "")
   (property "ki_description" "Two pin crystal, small symbol")
   (property "ki_keywords" "quartz ceramic resonator oscillator")
   (attr smd)

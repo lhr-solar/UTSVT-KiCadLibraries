@@ -1,7 +1,5 @@
 (footprint "LAN8742AI-CZ-TR" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (property "Sheetfile" "Ethernet.kicad_sch")
-  (property "Sheetname" "Ethernet")
   (property "ki_description" "Ethernet Transceiver RMII")
   (property "ki_keywords" "Ethernet, Transceiver, RMII")
   (attr through_hole)

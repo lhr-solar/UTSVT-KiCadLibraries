@@ -2,8 +2,6 @@
   (layer "F.Cu")
   (descr "Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)")
   (tags "Micro SD")
-  (property "Sheetfile" "SDCard.kicad_sch")
-  (property "Sheetname" "SD Card")
   (property "ki_description" "Micro SD Card Socket with two card detection pins")
   (property "ki_keywords" "connector SD microsd")
   (attr smd)

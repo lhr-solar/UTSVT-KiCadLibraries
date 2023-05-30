@@ -2,8 +2,6 @@
   (layer "F.Cu")
   (descr "Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)")
   (tags "ethernet 8p8c transformer poe rj45")
-  (property "Sheetfile" "Ethernet.kicad_sch")
-  (property "Sheetname" "Ethernet")
   (property "ki_description" "RJ45 PoE 10/100 Base-TX Jack with Magnetic Module")
   (property "ki_keywords" "single port ethernet transformer socket poe center-tap")
   (attr through_hole)

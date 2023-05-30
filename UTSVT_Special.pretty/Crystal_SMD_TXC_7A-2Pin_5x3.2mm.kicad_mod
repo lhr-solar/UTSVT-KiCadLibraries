@@ -3,8 +3,6 @@
   (descr "SMD Crystal TXC 7A http://txccrystal.com/images/pdf/7a.pdf")
   (tags "SMD SMT crystal")
   (property "P/N" "7A-8.000MAHJ-T")
-  (property "Sheetfile" "Telemetry-Primary.kicad_sch")
-  (property "Sheetname" "")
   (property "ki_description" "Two pin crystal, small symbol")
   (property "ki_keywords" "quartz ceramic resonator oscillator")
   (attr smd)

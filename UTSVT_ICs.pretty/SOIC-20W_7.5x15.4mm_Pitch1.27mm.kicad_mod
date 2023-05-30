@@ -2,8 +2,6 @@
   (layer "F.Cu")
   (descr "20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "SOIC 1.27")
-  (property "Sheetfile" "CAN.kicad_sch")
-  (property "Sheetname" "CAN")
   (property "ki_description" "Isolating CAN Transceiver with Integrated Power Regulator")
   (attr smd)
   (fp_text reference "REF**" (at 0 -8.6614) (layer "F.SilkS")

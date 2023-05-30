@@ -1,7 +1,5 @@
 (footprint "RI3_DC_Converter" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (property "Sheetfile" "PowerDist.kicad_sch")
-  (property "Sheetname" "Power Distribution")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 2.4 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
