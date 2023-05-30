@@ -7,7 +7,7 @@
   (property "ki_description" "Micro SD Card Socket with two card detection pins")
   (property "ki_keywords" "connector SD microsd")
   (attr smd)
-  (fp_text reference "J9" (at -0.075 -9.19) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -0.0762 -9.525) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c641c42b-fb2d-4350-8f04-c776c5f2bb40)
   )

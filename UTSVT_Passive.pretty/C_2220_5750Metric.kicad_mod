@@ -3,19 +3,19 @@
   (descr "Capacitor SMD 2220In_5750Metrix")
   (tags "Capacitor, 5750")
   (attr smd)
-  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.0254 -3.8354) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 11fbc5cc-a019-4ec5-877d-3dfe1233327b)
   )
-  (fp_text value "CAP_5750_TDK" (at 0 0) (layer "F.Fab") hide
+  (fp_text value "CAP_5750_TDK" (at 0 3.937) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 777629a1-9610-4153-8b1d-af7ea47a727b)
   )
-  (fp_text user "*" (at 0 0) (layer "F.SilkS") hide
+  (fp_text user "VAL**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f59be1e3-69f1-45ec-b6c1-8997090c0a81)
   )
-  (fp_text user "0.213in/5.41mm" (at 6.096 0) (layer "Dwgs.User") hide
+  (fp_text user "0.213in/5.41mm" (at 10.287 0) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 76c0ee58-aca2-43e3-ab9d-f3542dd5b3c1)
   )
@@ -23,17 +23,13 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7b404c98-0d5d-4dbf-bc48-94af4da58e1e)
   )
-  (fp_text user "0.224in/5.69mm" (at 0 5.7531) (layer "Dwgs.User") hide
+  (fp_text user "0.224in/5.69mm" (at -0.0254 5.5118) (layer "Dwgs.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 90d507dc-d825-42ce-b971-8857b5b18f3b)
   )
   (fp_text user "Copyright 2016 Accelerated Designs. All rights reserved." (at 0 0) (layer "Cmts.User") hide
       (effects (font (size 0.127 0.127) (thickness 0.002)))
     (tstamp 4803371c-9b3f-417b-9ee8-5cf4cfde3097)
-  )
-  (fp_text user "*" (at 0 0) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5426ce6b-6e41-4609-8e9b-458b0d6cb0d1)
   )
   (fp_line (start -2.53725 2.8321) (end 2.53725 2.8321)
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp f20fbd64-a2cb-4590-8a37-220121149afb))

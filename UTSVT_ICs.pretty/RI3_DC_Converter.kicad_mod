@@ -3,7 +3,7 @@
   (property "Sheetfile" "PowerDist.kicad_sch")
   (property "Sheetname" "Power Distribution")
   (attr through_hole)
-  (fp_text reference "U2" (at 0 2.4 180) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 2.4 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4f1df360-b0f5-4a3c-8235-ae0fa1952452)
   )
