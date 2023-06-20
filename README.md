@@ -46,7 +46,10 @@ When first creating your board repository, and every time the Pull Request Templ
     * Datasheet/Mouser link
     * Footprint Association
 7. If adding footprint, click on `Footprint Editor`, select a `UTSVT` folder to add it to.
-8. If component takes up vertical or horizontal space (buck converters, connectors, large capacitors, etc.), click on `Edit Foootprint Properties` -> `3D Models` and add 3d model association with footprint.
+8. If component takes up vertical or horizontal space (buck converters, connectors, large capacitors, etc.), follow the below steps:
+    1. Download footprint and store in the submodule through your PCB repository
+    2. Open KiCAD through your project file in your PCB repository. Select `Preferences` -> `Configure File Paths` -> `+` -> and add the following path `$(KIPRJMOD)/common/utsvt3d/`.
+    3. Now when adding the 3D Model to the footprint, just select the footprint through the footprint library, click on 3D Models, and add the name of the step file (through one of the folders in `utsvt3d`).
 9. After filling out the above information, enter the submodule directory through your PCB repository.
 10. There will be changes made to this submodule if everything was done correctly. Now you must commit your changes to a new branch and open a Pull Request.
 11. After the Pull Request is merged, update the submodule in your PCB repository through `git submodule update`.
