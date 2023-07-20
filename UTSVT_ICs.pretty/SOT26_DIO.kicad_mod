@@ -122,4 +122,9 @@
   (pad "4" smd rect (at 1.35255 0.950001) (size 1.0033 0.5588) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8f8fc978-cf36-47bb-bd99-2c7131e17ed1))
   (pad "5" smd rect (at 1.35255 0) (size 1.0033 0.5588) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 88997f4c-8c81-439f-bfba-7f584a17b725))
   (pad "6" smd rect (at 1.35255 -0.950001) (size 1.0033 0.5588) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6f72c9e0-089e-4c9c-b112-f9e8d3535168))
+  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/D5V0F4U6SO-7.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
