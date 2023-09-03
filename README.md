@@ -70,6 +70,14 @@ When manufacturing a PCB, there are constraints that are given to us by the manu
 * Minimum Text Height: .8mm
 * Minimum Text Thickness: .15mm
 
+# Exporting a Board as a 3D Model
+Before exporting a board go into the 3D viewer of KiCAD `View` -> `3D Viewer` while in the PCB editor to see what you will be exporting. 
+* For mechanical integration, mechanical doesn't need to see every individual component.  If your board doesn't have any smd parts that take up vertical or horizontal space then while in the 3D viewer do `Preferences` -> `Toggle SMD 3D Models` the same applies for any tht component except it's `Preferences` -> `Toggle Through Hole 3D Models`.  
+* Get the x and y position for the center of your board (easiest way in my opinon is to get the positions of the mounting holes with `E` then getting the center of the midpoint of the mounting hole positions)
+* Go to `View` ->  `Grid Properties` and then enter the x and y position of the center of your board in the `Grid Origin` section.
+* Go to `File` -> `Export` -> `Step` and select the directory you want to export to and in the `Coordinantes` section make sure `Grid origin` is selected.
+* Press `Export`.
+
 # Working on a Board
 * The first page of the KiCAD schematic should have a version control description of the board that is being worked on. It should list the changes between each version of the board and changes that should be made in future versions of the board.
 * When working on a board, the branch name should be the version of the board.
