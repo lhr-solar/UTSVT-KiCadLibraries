@@ -4,3 +4,4 @@
 *.bck
 *.swp
 *-save.*
+.DS_Store
