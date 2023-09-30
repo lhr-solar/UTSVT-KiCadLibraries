@@ -197,7 +197,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/DM3AT-SF-PEJM5.step"
+  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/DM3AT-SF-PEJM5.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
