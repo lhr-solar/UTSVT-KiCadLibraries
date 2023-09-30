@@ -113,7 +113,7 @@
     (property "Value" "DaughterConnector" (at 19.05 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "533072071" (at 19.05 -94.92 0)
+    (property "Footprint" "UTSVT_Connectors:533072071" (at 19.05 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://tools.molex.com/pdm_docs/sd/533072071_sd.pdf" (at 19.05 -194.92 0)
