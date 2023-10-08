@@ -75,4 +75,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )
+  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/BPS-PeripheralSOM.step"
+    (offset (xyz 0 0 4.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
