@@ -34,16 +34,17 @@
   (pad "3" smd rect (at -2.7325 0.635 90) (size 0.61 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a17bd953-91e4-46c7-9dc1-11a337828f4d))
   (pad "4" smd rect (at -2.7325 1.905 90) (size 0.61 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 46bcf2a2-2944-4b4e-985e-11367224a261))
   (pad "5" smd custom (at 2.7325 1.905 90) (size 0.61 1.02) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))
     (primitives
-      (gr_rect (start 3.81 -4.06) (end 0 -0.15) (width 0) (fill yes))
+      (gr_rect (start 0 -4.06) (end 3.81 -0.15) (width 0) (fill yes))
     ) (tstamp 874163ce-d083-4b0f-ab1d-8b783303d3d8))
   (pad "6" smd rect (at 2.7325 0.635 90) (size 0.61 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f5011a98-8d07-4e01-a72d-a7d784d611ae))
   (pad "7" smd rect (at 2.7325 -0.635 90) (size 0.61 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aad9cccb-cea9-430f-9d65-bda2c4b45426))
   (pad "8" smd rect (at 2.7325 -1.905 90) (size 0.61 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 280b2de7-65d2-4e5f-b43f-0a5ff6894321))
-  (model "SI7149ADP-T1-GE3.stp"
-    (offset (xyz 0 0 0.04999999999))
+  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/SI7149ADP-T1-GE3.stp"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -180))
+    (rotate (xyz -90 0 180))
   )
 )
