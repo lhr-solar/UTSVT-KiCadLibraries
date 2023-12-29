@@ -57,18 +57,20 @@ When first creating your board repository, and every time the Pull Request Templ
 # Standard Constraints for Laying out Board
 When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. When creating the layout of your board, select
 `File` -> `Board Setup` -> `Constraints` and set them to the following values:
-* Minimum Clearance: .127mm
-* Minimum Track Width: .127mm
+* Minimum Clearance (2 layer): .127mm
+* Minimum Track Width (2 layer): .127mm
+* Minimum Clearance (4 layer): .09mm
+* Minimum Track Width (4 layer): .09mm
 * Minimum Connection Width: 0mm
 * Minimum Annular Width: .13mm
-* Minimum Via Diameter: .25mm
+* Minimum Via Diameter: .4mm //changed
 * Copper to Hole Clearance: .254mm
 * Copper to Edge Clearance: .1mm
 * Minimum Through Hole: .2mm
 * Hole to Hole Clearance: .5mm
 * Minimum Item Clearance: .15mm
-* Minimum Text Height: .8mm
-* Minimum Text Thickness: .15mm
+* Minimum Text Height: 1mm //changed
+* Minimum Text Thickness: .153mm //changed
 
 # Exporting a Board as a 3D Model
 Before exporting a board go into the 3D viewer of KiCAD `View` -> `3D Viewer` while in the PCB editor to see what you will be exporting. 
