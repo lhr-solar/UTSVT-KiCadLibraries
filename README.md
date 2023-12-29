@@ -55,7 +55,8 @@ When first creating your board repository, and every time the Pull Request Templ
 11. After the Pull Request is merged, update the submodule in your PCB repository through `git submodule update`.
 
 # Standard Constraints for Laying out Board
-When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. When creating the layout of your board, select
+When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. [**JLCPCB Manufacturing Capabilities**](https://jlcpcb.com/capabilities/Eagle%20PCB%20to%20gerber%20files)
+When creating the layout of your board, select
 `File` -> `Board Setup` -> `Constraints` and set them to the following values:
 * Minimum Clearance (2 layer): .127mm
 * Minimum Track Width (2 layer): .127mm
@@ -65,9 +66,9 @@ When manufacturing a PCB, there are constraints that are given to us by the manu
 * Minimum Annular Width: .13mm
 * Minimum Via Diameter: .4mm //changed
 * Copper to Hole Clearance: .254mm
-* Copper to Edge Clearance: .1mm
+* Copper to Edge Clearance: .2mm //changed
 * Minimum Through Hole: .2mm
-* Hole to Hole Clearance: .5mm
+* Hole to Hole Clearance: .5mm //Verified
 * Minimum Item Clearance: .15mm
 * Minimum Text Height: 1mm //changed
 * Minimum Text Thickness: .153mm //changed
