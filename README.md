@@ -55,7 +55,7 @@ When first creating your board repository, and every time the Pull Request Templ
 11. After the Pull Request is merged, update the submodule in your PCB repository through `git submodule update`.
 
 # Standard Constraints for Laying out Board
-When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. The following are [**JLCPCB Manufacturing Capabilities**](https://jlcpcb.com/capabilities/Capabilities)
+When manufacturing a PCB, there are constraints that are given to us by the manufacturer based on how precise their manufacturing equipment is. The following are [**JLCPCB Manufacturing Capabilities**](https://jlcpcb.com/capabilities/Capabilities).  
 When creating the layout of your board, select
 `File` -> `Board Setup` -> `Constraints` and set them to the following values:
 * Minimum Clearance (2 layer): .127mm
