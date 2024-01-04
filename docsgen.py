@@ -12,10 +12,15 @@ def exportStep():
     pcbDir = (projectDir + "/" + pcbName) # Directory for the pcb being used for step
     os.system(f"kicad-cli pcb export step --force --subst-models -o {outputDir} {pcbDir}")
 
+    outputDir = (projectDir + "/"+ projectName [:-10] + "Outline.step")
+    os.system(f"kicad-cli pcb export step --force --board-only -o {outputDir} {pcbDir}")
+
+
 def exportPCB():
     outputDir = (projectDir + "/"+ projectName [:-10] + "PCB.svg")
     pcbDir = (projectDir + "/" + pcbName) # Directory for the pcb being used for SVG
-    os.system(f"kicad-cli pcb export svg --page-size-mode 2 --exclude-drawing-sheet --layers Edge.Cuts,F.SilkS,F.Cu,B.SilkS,B.Cu -o {outputDir} {pcbDir}")
+    #os.system(f"kicad-cli pcb export svg --page-size-mode 2 --exclude-drawing-sheet --layers Cmts.User,Dwgs.User,Edge.Cuts,F.SilkS,F.Cu,B.SilkS,B.Cu -o {outputDir} {pcbDir}")
+    os.system(f"kicad-cli pcb export svg --page-size-mode 2 --exclude-drawing-sheet --layers * -o {outputDir} {pcbDir}")
 
 schematicName = ""
 pcbName = ""
