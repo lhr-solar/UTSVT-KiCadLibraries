@@ -64,14 +64,14 @@ When creating the layout of your board, select
 * Minimum Track Width (4 layer): .09mm
 * Minimum Connection Width: 0mm
 * Minimum Annular Width: .13mm
-* Minimum Via Diameter: .3mm //changed
+* Minimum Via Diameter: .5mm
 * Copper to Hole Clearance: .254mm
-* Copper to Edge Clearance: .2mm //changed
-* Minimum Through Hole: .2mm
-* Hole to Hole Clearance: .5mm //Verified
+* Copper to Edge Clearance: .3mm
+* Minimum Through Hole: .3mm
+* Hole to Hole Clearance: .5mm
 * Minimum Item Clearance: .15mm
-* Minimum Text Height: 1mm //changed
-* Minimum Text Thickness: .153mm //changed
+* Minimum Text Height: 1mm
+* Minimum Text Thickness: .153mm
 
 # Exporting a Board as a 3D Model
 Before exporting a board go into the 3D viewer of KiCAD `View` -> `3D Viewer` while in the PCB editor to see what you will be exporting. 
