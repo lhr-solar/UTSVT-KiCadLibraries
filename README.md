@@ -64,7 +64,8 @@ When creating the layout of your board, select
 * Minimum Track Width (4 layer): .09mm
 * Minimum Connection Width: 0mm
 * Minimum Annular Width: .13mm
-* Minimum Via Diameter: .5mm
+* Minimum Via Diameter (2 layer): .5mm
+* Minimum Via Diameter (4 layer): .25mm
 * Copper to Hole Clearance: .254mm
 * Copper to Edge Clearance: .3mm
 * Minimum Through Hole: .3mm
