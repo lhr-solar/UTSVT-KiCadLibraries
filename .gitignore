@@ -5,3 +5,4 @@
 *.swp
 *-save.*
 .DS_Store
+**/.DS_Store
