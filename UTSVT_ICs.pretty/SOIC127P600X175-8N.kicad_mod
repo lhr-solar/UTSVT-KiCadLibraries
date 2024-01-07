@@ -51,7 +51,7 @@
   (pad "6" smd rect (at 2.711 0.635 90) (size 0.65 1.528) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f6fc2062-5aaa-439c-90c8-9574ac807066))
   (pad "7" smd rect (at 2.711 -0.635 90) (size 0.65 1.528) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4fe271f7-ec9a-4a90-b347-254db9bab414))
   (pad "8" smd rect (at 2.711 -1.905 90) (size 0.65 1.528) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c7c8125e-71a4-4f01-afb7-64c7b770c8cf))
-  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/TPS1120DR.stp"
+  (model "${KIPRJMOD}/common/utsvt3d/chips.3dshapes/TPS1120DR.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

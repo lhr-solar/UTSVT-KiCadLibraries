@@ -197,7 +197,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/DM3AT-SF-PEJM5_40_.stp"
+  (model "${KIPRJMOD}/common/utsvt3d/misc.3dshapes/DM3AT-SF-PEJM5_40_.stp"
     (offset (xyz -165.2 -154 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

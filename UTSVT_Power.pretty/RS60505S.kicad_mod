@@ -54,7 +54,7 @@
   (pad "6" thru_hole circle (at 12.7 0) (size 1.725 1.725) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp d64375de-87bf-427f-8958-51438011d468))
   (pad "7" thru_hole circle (at 15.24 0) (size 1.725 1.725) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp 5efdb85b-ff21-495b-8a83-ca3394410c99))
   (pad "8" thru_hole circle (at 17.78 0) (size 1.725 1.725) (drill 1.15) (layers "*.Cu" "*.Mask") (tstamp b6d85534-ac3b-4f2b-bc81-c36abbd25a38))
-  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/RS6-0505S.stp"
+  (model "${KIPRJMOD}/common/utsvt3d/misc.3dshapes/RS6-0505S.stp"
     (offset (xyz 8.9 -1.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

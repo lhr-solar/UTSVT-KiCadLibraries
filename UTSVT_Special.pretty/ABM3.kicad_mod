@@ -45,7 +45,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f33e4983-a25c-4df8-aecf-9e704a04a70d))
   (pad "1" smd rect (at -2.05 0) (size 1.9 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 332343ad-2298-4a33-a093-50bcf74cf221))
   (pad "2" smd rect (at 2.05 0) (size 1.9 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 60f96910-68ad-4b13-a462-ea69803ed20e))
-  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/ABM3-8.000MHZ-D2Y-T.stp"
+  (model "${KIPRJMOD}/common/utsvt3d/misc.3dshapes/ABM3-8.000MHZ-D2Y-T.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
