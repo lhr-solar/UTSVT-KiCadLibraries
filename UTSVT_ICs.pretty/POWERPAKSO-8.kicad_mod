@@ -42,7 +42,7 @@
   (pad "6" smd rect (at 2.7325 0.635 90) (size 0.61 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f5011a98-8d07-4e01-a72d-a7d784d611ae))
   (pad "7" smd rect (at 2.7325 -0.635 90) (size 0.61 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aad9cccb-cea9-430f-9d65-bda2c4b45426))
   (pad "8" smd rect (at 2.7325 -1.905 90) (size 0.61 1.02) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 280b2de7-65d2-4e5f-b43f-0a5ff6894321))
-  (model "${KIPRJMOD}/common/utsvt3d/chips.3dshapes/SI7149ADP-T1-GE3.stp"
+  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/SI7149ADP-T1-GE3.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

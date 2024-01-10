@@ -45,7 +45,7 @@
   (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers "*.Cu" "*.Mask") (tstamp b98d323c-6e54-4aae-8131-ffa13652bbd7))
   (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 41712e2f-6c93-464f-ab21-ae58560bb084))
   (pad "2" thru_hole circle (at 3 0) (size 1.7 1.7) (drill 1.02) (layers "*.Cu" "*.Mask") (tstamp 023e6e17-ab80-4794-abd5-2a03ecff8a4c))
-  (model "${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500227.stp"
+  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
     (offset (xyz 1.5 0 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

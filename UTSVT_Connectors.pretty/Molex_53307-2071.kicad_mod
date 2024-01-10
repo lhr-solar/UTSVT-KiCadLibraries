@@ -63,7 +63,7 @@
   (pad "18" smd rect (at -2.8 2.15) (size 0.55 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ef7bd74-60e1-4e81-a739-b625a7b4dd2c))
   (pad "19" smd rect (at -3.6 -2.15) (size 0.55 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9b11b41d-06f0-49f8-a9db-a6dae2b921a0))
   (pad "20" smd rect (at -3.6 2.15) (size 0.55 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f3f72ed7-c4ad-4707-a9cb-322d017292ff))
-  (model "${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/53307-2071.stp"
+  (model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/53307-2071.stp"
     (offset (xyz 0 0 1.849999996))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
