@@ -73,7 +73,8 @@ When creating the layout of your board, select
 * Minimum Item Clearance: .15mm
 * Minimum Text Height: 1mm
 * Minimum Text Thickness: .153mm  
-Also go `File` -> `Board Setup` -> `Solder Mask/Paste`
+
+Also go `File` -> `Board Setup` -> `Solder Mask/Paste` and set them to the following values:
 * Solder mask expansion: .038mm
 * Solder mask minimum web width: .1mm  
 
