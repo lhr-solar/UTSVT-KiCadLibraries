@@ -72,7 +72,11 @@ When creating the layout of your board, select
 * Hole to Hole Clearance: .5mm
 * Minimum Item Clearance: .15mm
 * Minimum Text Height: 1mm
-* Minimum Text Thickness: .153mm
+* Minimum Text Thickness: .153mm  
+Also go `File` -> `Board Setup` -> `Solder Mask/Paste`
+* Solder mask expansion: .038mm
+* Solder mask minimum web width: .1mm  
+
 
 # Exporting a Board as a 3D Model
 Before exporting a board go into the 3D viewer of KiCAD `View` -> `3D Viewer` while in the PCB editor to see what you will be exporting. 
