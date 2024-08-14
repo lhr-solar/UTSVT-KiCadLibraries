@@ -3427,8 +3427,8 @@
 		)
 		(symbol "INA2180_0_0"
 			(pin power_in line
-				(at 2.54 -7.62 90)
-				(length 2.54)
+				(at 2.54 -8.255 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -3445,8 +3445,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 7.62 270)
-				(length 2.54)
+				(at 2.54 8.255 270)
+				(length 3.81)
 				(name "VS"
 					(effects
 						(font
@@ -3466,7 +3466,7 @@
 		(symbol "INA2180_0_1"
 			(polyline
 				(pts
-					(xy -3.81 10.16) (xy -3.81 -10.16) (xy 8.89 0) (xy -3.81 10.16)
+					(xy -3.81 8.89) (xy -3.81 -8.89) (xy 8.89 0) (xy -3.81 8.89)
 				)
 				(stroke
 					(width 0)
