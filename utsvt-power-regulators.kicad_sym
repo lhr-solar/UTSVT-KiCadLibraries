@@ -252,7 +252,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "CME0303S3C"
+		(property "P/N" "CME0303S3C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2854,6 +2854,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "TPS562231DRLR"
 			(at 0 0 0)
 			(effects
 				(font

@@ -2924,6 +2924,15 @@
 				(hide yes)
 			)
 		)
+		(property "P/N" "FT230XS-R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "FT230XS-R_0_0"
 			(polyline
 				(pts
@@ -5545,6 +5554,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "LM73100RPWR"
 			(at 0 0 0)
 			(effects
 				(font
