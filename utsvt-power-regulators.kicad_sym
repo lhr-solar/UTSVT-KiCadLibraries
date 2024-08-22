@@ -225,7 +225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UTSVT_Power:SIP4_CME0303_MUR"
+		(property "Footprint" "UTSVT_Power:CME0303S3C"
 			(at 0 0 0)
 			(effects
 				(font
