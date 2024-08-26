@@ -5785,7 +5785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_ICs:SOP65P640X120-17N"
 			(at 0 0 0)
 			(effects
 				(font
