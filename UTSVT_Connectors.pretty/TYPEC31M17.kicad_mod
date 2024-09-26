@@ -276,7 +276,7 @@
 		(remove_unused_layers no)
 		(uuid "58f6a85f-8390-45c4-acb6-c774ce0e3962")
 	)
-	(model "TYPE-C-31-M-17.stp"
+	(model "UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/TYPE-C-31-M-17.stp"
 		(offset
 			(xyz -4.469999723 -4.309999878 0.09999999999)
 		)

@@ -188,7 +188,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8ca065ad-5ca3-452f-9fea-96387650bc34")
 	)
-	(model "LMLP0506M4R7DTAS.stp"
+	(model "UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/LMLP0506M4R7DTAS.stp"
 		(offset
 			(xyz 0 0 0)
 		)

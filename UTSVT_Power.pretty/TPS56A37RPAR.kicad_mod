@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -366,7 +369,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "50f2374b-21c1-4412-ae85-cdad2758f010")
 	)
-	(model "TPS56A37RPAR.stp"
+	(model "UTSVT-KiCadLibraries/utsvt3d/chips.3dshapes/TPS56A37RPAR.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -374,7 +377,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

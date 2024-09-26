@@ -278,7 +278,7 @@
 	)
 	(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/73099-0.stp"
 		(offset
-			(xyz 3.809999886 -5.079999847 3.400000044)
+			(xyz 3.81 -5.08 1.4)
 		)
 		(scale
 			(xyz 1 1 1)
