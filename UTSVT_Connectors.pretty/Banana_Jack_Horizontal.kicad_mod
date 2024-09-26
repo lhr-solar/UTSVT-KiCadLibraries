@@ -276,7 +276,7 @@
 		(remove_unused_layers no)
 		(uuid "87ab5bcc-0faf-4f9c-a9fe-2a92d79dee1f")
 	)
-	(model "73099-0.stp"
+	(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/73099-0.stp"
 		(offset
 			(xyz 3.809999886 -5.079999847 3.400000044)
 		)
