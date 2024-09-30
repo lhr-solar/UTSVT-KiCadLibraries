@@ -1,22 +1,158 @@
-(module DO-221AC (layer F.Cu) (tedit 56CA7F77)
-  (fp_text reference D102 (at 0 3) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.25)))
-  )
-  (fp_text value DIODE-45 (at 0 -3) (layer F.Fab)
-    (effects (font (size 1.5 1.5) (thickness 0.25)))
-  )
-  (fp_line (start 2.2 -1.35) (end 2.2 -1.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.2 1.35) (end 2.2 1.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.2 1.35) (end -2.2 1.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.2 -1.35) (end -2.2 -1.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1 -1.25) (end -1 1.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.175 -1.35) (end 2.175 -1.35) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.175 1.35) (end 2.175 1.35) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at 2.16 0) (size 1.2 1.52) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -2.16 0) (size 1.2 1.52) (layers F.Cu F.Paste F.Mask))
-  (model "/Library/Application Support/kicad/packages3d/Diodes_SMD.3dshapes/SMA_Standard.wrl"
-    (at (xyz 0 0 0))
-    (scale (xyz 0.35 0.35 0.25))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "DO-221AC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "D102"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(uuid "3826338f-5eed-4edf-bb10-e7a36a0eb53b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "DIODE-45"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(uuid "3b00678e-a2f7-4d91-a28f-f57ceaee8749")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a58c43e7-9598-4d32-9f28-182f64e4bce0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe76a348-c836-4381-b194-8463f6103934")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "278ddcd1-9e6d-4d3b-9a3c-4b55a068f235")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -1.35)
+		(end -2.2 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "926f999f-49c3-4c6a-a809-ce1dd0582c06")
+	)
+	(fp_line
+		(start -2.2 1.35)
+		(end -2.2 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "306bde37-eff8-4751-aa6c-243bc6a4373e")
+	)
+	(fp_line
+		(start -2.175 -1.35)
+		(end 2.175 -1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b1ab308-15b5-450c-81a3-e84e4465297e")
+	)
+	(fp_line
+		(start -2.175 1.35)
+		(end 2.175 1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "374d140c-e87b-4320-ab34-92e8ffb09f2e")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6d4a02f-5f76-4e4d-ab58-d4ae29cff99d")
+	)
+	(fp_line
+		(start 2.2 -1.35)
+		(end 2.2 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a70361b-cabd-4473-884c-21f59dc5174f")
+	)
+	(fp_line
+		(start 2.2 1.35)
+		(end 2.2 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "489cc8ab-ed2c-4046-83d8-2c7881782cdc")
+	)
+	(pad "1" smd rect
+		(at 2.16 0)
+		(size 1.2 1.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "baa59c64-882c-4abb-9b0d-d6bf64b2378f")
+	)
+	(pad "2" smd rect
+		(at -2.16 0)
+		(size 1.2 1.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cb2f2d52-febf-405d-a125-110c44140fae")
+	)
+	(model "/Library/Application Support/kicad/packages3d/Diodes_SMD.3dshapes/SMA_Standard.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.35 0.35 0.25)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
