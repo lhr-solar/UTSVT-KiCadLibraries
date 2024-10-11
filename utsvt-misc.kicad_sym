@@ -1550,10 +1550,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -17.78 -2.54 0)
 				(length 5.08)
-				(name "+12V"
+				(name "+12V_In"
 					(effects
 						(font
 							(size 1.27 1.27)
