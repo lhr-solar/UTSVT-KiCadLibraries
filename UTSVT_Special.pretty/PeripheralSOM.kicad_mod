@@ -246,6 +246,17 @@
 		(uuid "49bcfe31-1419-441f-95a8-5ab701bcb584")
 	)
 	(fp_arc
+		(start 18.037742 -21.812258)
+		(mid 20.300482 -20.874998)
+		(end 21.237742 -18.612258)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "72cdb572-48c2-45ba-bc2f-c0ec0ed38670")
+	)
+	(fp_arc
 		(start 21.237742 24.987742)
 		(mid 20.300483 27.250483)
 		(end 18.037742 28.187742)
@@ -299,17 +310,6 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "118e56db-1422-4572-94e5-5ed95fbbc26f")
-	)
-	(fp_arc
-		(start 18.037742 -21.812258)
-		(mid 20.300482 -20.874999)
-		(end 21.237742 -18.612258)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "72cdb572-48c2-45ba-bc2f-c0ec0ed38670")
 	)
 	(fp_line
 		(start 13.675 -3.575)
@@ -643,9 +643,9 @@
 			"f7c42dea-6d7a-4c53-af2c-34dddd52671d" "fc07627c-3a6a-42ff-8327-ba00d771bfc2"
 		)
 	)
-	(model "${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/53307-2071.stp"
+	(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/53307-2471.stp"
 		(offset
-			(xyz 16.5 0.5 2)
+			(xyz 18.5 -3.25 2)
 		)
 		(scale
 			(xyz 1 1 1)
