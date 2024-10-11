@@ -654,9 +654,9 @@
 			(xyz -90 0 -90)
 		)
 	)
-	(model "${KIPRJMOD}/common/utsvt3d/misc.3dshapes/BPS-PeripheralSOM.step"
+	(model "${KIPRJMOD}/BPS-PeripheralSOM.step"
 		(offset
-			(xyz 0 0 4.5)
+			(xyz 2 -3.25 4.5)
 		)
 		(scale
 			(xyz 1 1 1)
