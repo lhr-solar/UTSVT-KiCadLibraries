@@ -1227,15 +1227,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at -13.716 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 2.794 0)
+		(property "Value" "PeripheralSOM"
+			(at 7.112 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1243,7 @@
 			)
 		)
 		(property "Footprint" "UTSVT_Special:PeripheralSOM"
-			(at -0.254 4.318 0)
+			(at -74.422 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 			)
 		)
 		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/533072071_sd.pdf"
-			(at -0.254 4.318 0)
+			(at -75.946 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 2.794 0)
+			(at 2.54 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "P/N" "53307-2471"
-			(at -0.254 4.318 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1278,7 @@
 			)
 		)
 		(property "Height" "3.85"
-			(at -0.254 4.318 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,8 +1288,8 @@
 		)
 		(symbol "PeripheralSOM_1_1"
 			(rectangle
-				(start -12.7 1.27)
-				(end 12.7 -30.48)
+				(start -13.97 29.21)
+				(end 13.97 -29.21)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1298,8 +1298,80 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 2.54 -5.08) (xy 2.54 -26.67)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 8.89) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 16.51) (xy 2.54 11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "ADC"
+				(at 2.032 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "GPIO"
+				(at 1.778 12.7 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify right)
+				)
+			)
+			(text "I2C"
+				(at 1.778 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "SPI"
+				(at 2.032 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
 			(pin passive line
-				(at 17.78 -27.94 180)
+				(at 19.05 -22.86 180)
 				(length 5.08)
 				(name "SPI2_MOSI"
 					(effects
@@ -1317,7 +1389,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -17.78 0)
+				(at 19.05 20.32 180)
 				(length 5.08)
 				(name "VDDA(3.3V)"
 					(effects
@@ -1335,7 +1407,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -15.24 180)
+				(at -19.05 -22.86 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1353,7 +1425,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -15.24 0)
+				(at -19.05 -20.32 0)
 				(length 5.08)
 				(name "GNDA"
 					(effects
@@ -1371,7 +1443,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -12.7 180)
+				(at 19.05 -8.89 180)
 				(length 5.08)
 				(name "SPI1_SCK"
 					(effects
@@ -1389,7 +1461,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -12.7 0)
+				(at 19.05 7.62 180)
 				(length 5.08)
 				(name "I2C1_SCL"
 					(effects
@@ -1407,7 +1479,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -10.16 180)
+				(at 19.05 -13.97 180)
 				(length 5.08)
 				(name "SPI1_MISO"
 					(effects
@@ -1425,7 +1497,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -10.16 0)
+				(at 19.05 5.08 180)
 				(length 5.08)
 				(name "I2C1_SDA"
 					(effects
@@ -1443,7 +1515,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -7.62 180)
+				(at 19.05 -11.43 180)
 				(length 5.08)
 				(name "SPI1_MOSI"
 					(effects
@@ -1461,7 +1533,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -7.62 0)
+				(at 19.05 12.7 180)
 				(length 5.08)
 				(name "PA2(ADC)"
 					(effects
@@ -1479,7 +1551,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -5.08 180)
+				(at 19.05 -6.35 180)
 				(length 5.08)
 				(name "SPI1_NSS"
 					(effects
@@ -1497,7 +1569,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -27.94 0)
+				(at 19.05 25.4 180)
 				(length 5.08)
 				(name "+3.3V"
 					(effects
@@ -1515,7 +1587,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -5.08 0)
+				(at 19.05 15.24 180)
 				(length 5.08)
 				(name "PA1(ADC)"
 					(effects
@@ -1533,7 +1605,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -2.54 180)
+				(at -19.05 21.59 0)
 				(length 5.08)
 				(name "CAN_L"
 					(effects
@@ -1551,7 +1623,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -2.54 0)
+				(at -19.05 25.4 0)
 				(length 5.08)
 				(name "+12V_In"
 					(effects
@@ -1569,7 +1641,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 0 180)
+				(at -19.05 19.05 0)
 				(length 5.08)
 				(name "CAN_H"
 					(effects
@@ -1587,7 +1659,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 0 0)
+				(at -19.05 -17.78 0)
 				(length 5.08)
 				(name "GNDPWR"
 					(effects
@@ -1605,7 +1677,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -25.4 180)
+				(at 19.05 -25.4 180)
 				(length 5.08)
 				(name "SPI2_MISO"
 					(effects
@@ -1623,7 +1695,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -25.4 0)
+				(at -19.05 -25.4 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1641,7 +1713,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -22.86 180)
+				(at 19.05 -20.32 180)
 				(length 5.08)
 				(name "SPI2_SCK"
 					(effects
@@ -1659,7 +1731,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -22.86 0)
+				(at 19.05 -1.27 180)
 				(length 5.08)
 				(name "I2C2_SDA"
 					(effects
@@ -1677,7 +1749,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -20.32 180)
+				(at 19.05 -17.78 180)
 				(length 5.08)
 				(name "SPI2_NSS"
 					(effects
@@ -1695,7 +1767,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -20.32 0)
+				(at 19.05 1.27 180)
 				(length 5.08)
 				(name "I2C2_SCL"
 					(effects
@@ -1713,7 +1785,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -17.78 180)
+				(at 19.05 22.86 180)
 				(length 5.08)
 				(name "+3.3V"
 					(effects
