@@ -1023,7 +1023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://no.mouser.com/ProductDetail/Molex/43650-0414?qs=R7%2FZKp6KZ2bFoNEw1nfqtQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Molex/43650-0244?qs=XoD1gVtqLQuEe6RJ38AzJQ%3D%3D"
 			(at 5.08 7.62 0)
 			(effects
 				(font
@@ -1033,6 +1033,15 @@
 			)
 		)
 		(property "Description" "Connection to the car's Peripheral CAN bus."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P/N" "436500244"
 			(at 0 0 0)
 			(effects
 				(font
