@@ -4682,7 +4682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211010930_VBsemi-Elec-NDS356AP-VB_C710027.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PMV35EPE-1539905.pdf"
 			(at 5.334 -13.208 0)
 			(effects
 				(font
