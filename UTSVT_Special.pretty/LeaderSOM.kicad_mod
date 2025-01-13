@@ -1410,4 +1410,37 @@
 			"a8337526-4397-4d45-a82c-8a9d1a552916" "d4df69e8-1c3e-4b7c-be2c-2f0a10264458"
 		)
 	)
+	(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/misc.3dshapes/LeaderSOM.step"
+		(offset
+			(xyz 0.5 -23.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 180 180)
+		)
+	)
+	(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/533072471.stp"
+		(offset
+			(xyz -8 -6.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+	(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/533072471.stp"
+		(offset
+			(xyz 8 -6.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )
